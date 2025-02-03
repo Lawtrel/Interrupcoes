@@ -48,22 +48,25 @@ Este projeto é um exemplo de uso de interrupções e controle de LEDs WS2812 co
 
 ## Uso
 
-Após carregar o firmware no Raspberry Pi Pico W, os LEDs WS2812 começarão a piscar conforme a lógica implementada no arquivo [Interrupcoes.c](http://_vscodecontentref_/0).
+Após carregar o firmware no Raspberry Pi Pico W, os LEDs WS2812 começarão a piscar conforme a lógica implementada no arquivo [Interrupcoes.c](https://raw.githubusercontent.com/Lawtrel/Interrupcoes/refs/heads/main/Interrupcoes.c).
 
 ## Arquivos Principais
 
-### [Interrupcoes.c](http://_vscodecontentref_/1)
+### [Interrupcoes.c](https://raw.githubusercontent.com/Lawtrel/Interrupcoes/refs/heads/main/Interrupcoes.c)
 
 Este arquivo contém a lógica principal do projeto. Ele inicializa os LEDs RGB, configura os botões e define as funções de callback para as interrupções.
 
-### [CMakeLists.txt](http://_vscodecontentref_/2)
+### [CMakeLists.txt](https://raw.githubusercontent.com/Lawtrel/Interrupcoes/refs/heads/main/CMakeLists.txt)
 
 Arquivo de configuração do CMake que define como o projeto deve ser compilado. Ele inclui o SDK do Raspberry Pi Pico e configura as bibliotecas necessárias.
 
-### [ws2812.pio](http://_vscodecontentref_/3)
+### [ws2812.pio](https://raw.githubusercontent.com/Lawtrel/Interrupcoes/refs/heads/main/ws2812.pio)
 
 Programa PIO que define o protocolo de comunicação com os LEDs WS2812. Ele especifica os tempos de pulso para enviar dados aos LEDs.
 
+
+## Video de Funcionamento
+https://youtube.com/shorts/tU7v4ZDBVok?feature=share
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.

@@ -8,7 +8,7 @@
 
 #define WS2812_PIN 7
 #define NUM_LEDS 25
-#define RED_PIN 13
+#define RED_PIN 13 
 #define GREEN_PIN 11
 #define BLUE_PIN 12
 #define BUTTON_PIN 5
@@ -143,7 +143,7 @@ void init_rgb_led() {
 }
 
 bool blink_callback(struct repeating_timer *t) {
-    gpio_put(RED_PIN, !gpio_get(RED_PIN));
+    gpio_put(RED_PIN, !gpio_get(RED_PIN));  
     return true;
 }
 
